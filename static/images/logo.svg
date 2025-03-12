@@ -1,12 +1,12 @@
-<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M35 10L24 21L13 10C8.6 14.4 8.6 21.6 13 26C17.4 30.4 24.6 30.4 29 26L40 37C41.4 38.4 43.6 38.4 45 37C46.4 35.6 46.4 33.4 45 32L35 22C39.4 17.6 39.4 10.4 35 6C30.6 1.6 23.4 1.6 19 6L8 17C6.6 18.4 6.6 20.6 8 22C9.4 23.4 11.6 23.4 13 22L24 11L35 22L24 33L13 22C8.6 26.4 8.6 33.6 13 38C17.4 42.4 24.6 42.4 29 38L40 27C41.4 25.6 43.6 25.6 45 27C46.4 28.4 46.4 30.6 45 32L34 43C32.6 44.4 30.4 44.4 29 43C27.6 41.6 27.6 39.4 29 38L35 32" stroke="url(#paint0_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M42 8L38 4" stroke="url(#paint1_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M34 8L22 20L10 8C5.6 12.4 5.6 19.6 10 24C14.4 28.4 21.6 28.4 26 24L37 35C38.4 36.4 40.6 36.4 42 35C43.4 33.6 43.4 31.4 42 30L32 20C36.4 15.6 36.4 8.4 32 4C27.6 -0.4 20.4 -0.4 16 4L5 15C3.6 16.4 3.6 18.6 5 20C6.4 21.4 8.6 21.4 10 20L22 8L34 20L22 32L10 20C5.6 24.4 5.6 31.6 10 36C14.4 40.4 21.6 40.4 26 36L37 25C38.4 23.6 40.6 23.6 42 25C43.4 26.4 43.4 28.6 42 30L31 41C29.6 42.4 27.4 42.4 26 41C24.6 39.6 24.6 37.4 26 36L32 30" fill="url(#paint0_linear)"/>
+  <path d="M39 6L35 2" stroke="url(#paint1_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <defs>
-    <linearGradient id="paint0_linear" x1="8" y1="6" x2="45" y2="43" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0_linear" x1="5" y1="4" x2="42" y2="41" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6C5CE7"/>
       <stop offset="1" stop-color="#00A8FF"/>
     </linearGradient>
-    <linearGradient id="paint1_linear" x1="38" y1="4" x2="42" y2="8" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint1_linear" x1="35" y1="2" x2="39" y2="6" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6C5CE7"/>
       <stop offset="1" stop-color="#00A8FF"/>
     </linearGradient>
