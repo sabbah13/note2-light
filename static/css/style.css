@@ -146,21 +146,16 @@ p {
 .logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xs);
-}
-
-.logo-svg {
-    width: 40px;
-    height: 40px;
 }
 
 .logo-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin: 0;
 }
 
 .nav-list {
@@ -699,12 +694,10 @@ p {
 .footer-logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xs);
 }
 
-.footer-logo .logo-svg {
-    width: 30px;
-    height: 30px;
+.footer-logo .logo-text {
+    font-size: 1.5rem;
 }
 
 .footer-links {
