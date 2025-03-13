@@ -797,17 +797,6 @@ p {
 .footer-logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xs);
-}
-
-.footer-logo .logo-svg {
-    width: 30px;
-    height: 30px;
-}
-
-.footer-logo .logo-svg img {
-    width: 100%;
-    height: 100%;
 }
 
 .footer-logo .logo-text {
