@@ -143,7 +143,19 @@ p {
     padding: var(--spacing-sm) 0;
 }
 
-/* Logo styles removed */
+/* Logo Styles */
+.logo-link {
+    display: block;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.logo {
+    margin-right: var(--spacing-md);
+}
 
 .nav-list {
     display: flex;
@@ -774,6 +786,11 @@ p {
 .footer-logo {
     display: flex;
     align-items: center;
+}
+
+.footer-logo .logo-img {
+    height: 40px;
+    width: auto;
 }
 
 .footer-logo .logo-text {
