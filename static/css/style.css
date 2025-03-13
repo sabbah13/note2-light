@@ -675,6 +675,96 @@ p {
     margin: 0 var(--spacing-md) var(--spacing-md);
 }
 
+/* ----------------- Examples Section ----------------- */
+.examples-section {
+    background: linear-gradient(135deg, rgba(108, 92, 231, 0.02) 0%, rgba(0, 168, 255, 0.02) 100%);
+}
+
+.examples {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-md);
+}
+
+.example-chat {
+    background-color: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.example-chat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.chat-title {
+    background-color: #5E81AC;
+    color: var(--white);
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.chat-messages {
+    padding: var(--spacing-sm);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.message {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.ai-message {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    max-width: 80%;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: 12px;
+    position: relative;
+}
+
+.user-message .message-bubble {
+    background-color: #DCF8C6;
+    border-top-right-radius: 2px;
+}
+
+.ai-message .message-bubble {
+    background-color: #ECEFF1;
+    border-top-left-radius: 2px;
+}
+
+.message-sender {
+    font-weight: 600;
+    color: #5E81AC;
+    margin-bottom: 2px;
+    font-size: 0.9rem;
+}
+
+.message-text {
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.message-time {
+    font-size: 0.7rem;
+    color: var(--dark-gray);
+    text-align: right;
+    margin-top: 2px;
+}
+
 /* ----------------- CTA Section ----------------- */
 .cta-section {
     background: linear-gradient(135deg, rgba(108, 92, 231, 0.05) 0%, rgba(0, 168, 255, 0.05) 100%);
