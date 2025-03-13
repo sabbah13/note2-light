@@ -278,6 +278,8 @@ p {
     padding-top: calc(80px + var(--spacing-xl));
     padding-bottom: var(--spacing-xl);
     background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+    width: 100%;
+    max-width: 100%;
 }
 
 .hero-content {
