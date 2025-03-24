@@ -39,6 +39,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
+        
+        // Handle language-specific sections
+        if (lang === 'ru') {
+            // Show Russian-only elements
+            const ruOnlyElements = document.querySelectorAll('[data-ru-only]');
+            ruOnlyElements.forEach(el => el.style.display = 'block');
+            
+            // Hide English-only elements
+            const enOnlyElements = document.querySelectorAll('[data-en-only]');
+            enOnlyElements.forEach(el => el.style.display = 'none');
+        } else {
+            // For English
+            const ruOnlyElements = document.querySelectorAll('[data-ru-only]');
+            ruOnlyElements.forEach(el => el.style.display = 'none');
+            
+            const enOnlyElements = document.querySelectorAll('[data-en-only]');
+            enOnlyElements.forEach(el => el.style.display = 'block');
+        }
     }
     
     // Mobile menu toggle
