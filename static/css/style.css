@@ -571,6 +571,67 @@ p {
     font-weight: bold;
 }
 
+.integration-icons {
+    margin-top: var(--spacing-md);
+}
+
+.integration-icons-container {
+    margin-top: var(--spacing-sm);
+    text-align: center;
+}
+
+.integration-icons-container h3 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.icon-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-sm);
+}
+
+.integration-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.integration-icon i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    background: linear-gradient(135deg, rgba(108, 92, 231, 0.1) 0%, rgba(0, 168, 255, 0.1) 100%);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.integration-icon span {
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+}
+
+.integration-icon:hover i {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+[data-ru-only] {
+    display: none;
+}
+
+[data-en-only] {
+    display: none;
+}
+
 /* ----------------- Beneficiaries Section ----------------- */
 .industries {
     display: grid;
