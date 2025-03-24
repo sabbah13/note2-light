@@ -601,17 +601,25 @@ p {
     gap: 8px;
 }
 
-.integration-icon i {
-    font-size: 2rem;
-    color: var(--primary-color);
-    background: linear-gradient(135deg, rgba(108, 92, 231, 0.1) 0%, rgba(0, 168, 255, 0.1) 100%);
+.integration-icon .icon-img {
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: white;
     border-radius: 50%;
     transition: var(--transition);
+    overflow: hidden;
+    padding: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.integration-icon .icon-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
 }
 
 .integration-icon span {
@@ -619,7 +627,7 @@ p {
     color: var(--dark-gray);
 }
 
-.integration-icon:hover i {
+.integration-icon:hover .icon-img {
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
