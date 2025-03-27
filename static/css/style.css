@@ -654,6 +654,9 @@ p {
     box-shadow: var(--box-shadow);
     transition: var(--transition);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .industry:hover {
