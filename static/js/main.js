@@ -1,7 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Language toggle functionality
     const langButtons = document.querySelectorAll('.lang-btn');
-    const currentLang = localStorage.getItem('language') || 'en';
+    
+    // Function to detect browser language
+    function detectBrowserLanguage() {
+        const browserLang = navigator.language || navigator.userLanguage;
+        // Check if browser language starts with 'ru' (ru, ru-RU, etc.)
+        if (browserLang && browserLang.startsWith('ru')) {
+            return 'ru';
+        }
+        return 'en'; // Default to English for all other languages
+    }
+    
+    // Get language from localStorage or detect from browser
+    const savedLang = localStorage.getItem('language');
+    const currentLang = savedLang || detectBrowserLanguage();
     
     // Set initial language
     setLanguage(currentLang);
