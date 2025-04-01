@@ -335,8 +335,8 @@ p {
 }
 
 .dashboard-mockup {
-    width: 90%;
-    max-width: 500px;
+    width: 70%;
+    max-width: 350px;
     aspect-ratio: 4/3;
     background: var(--white);
     border-radius: var(--radius-lg);
@@ -350,16 +350,16 @@ p {
 }
 
 .static-logo {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-logo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     max-width: 100%;
 }
 
