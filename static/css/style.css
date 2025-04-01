@@ -117,7 +117,7 @@ p {
 
 /* ----------------- Layout Components ----------------- */
 .section {
-    padding: var(--spacing-xl) 0;
+    padding: 80px 0;
 }
 
 .section:nth-child(even) {
@@ -264,7 +264,7 @@ p {
 /* ----------------- Hero Section ----------------- */
 .hero {
     padding-top: calc(80px + var(--spacing-xl));
-    padding-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-xs);
     background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
     width: 100%;
     max-width: 100%;
@@ -340,6 +340,7 @@ p {
 }
 
 .hero-cta {
+    padding: 20px;
     display: flex;
     gap: var(--spacing-sm);
 }
@@ -973,6 +974,16 @@ p {
     .dashboard-mockup {
         margin-top: var(--spacing-md);
     }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        order: 1;
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1027,16 +1038,6 @@ p {
     .cta-buttons {
         flex-direction: column;
         align-items: center;
-    }
-
-    .hero-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-image {
-        order: 1;
-        margin-bottom: 2rem;
     }
 }
 
